@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML5 Semantic</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        ul {
+            padding: 1;
+            list-style: circle;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(0, 0, 0);
+            line-height: 1.4;
+        }
+
+        header {
+            margin-bottom: 15px;
+            background: #333;
+            color: #fff;
+            padding: 10px;
+        }
+
+        main {
+            float: left;
+            width: 69%;
+        }
+
+        #sidebar {
+            float: right;
+            width: 29%;
+        }
+
+        .clr {
+            clear: both;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 10px;
+        }
+
+        .text-center {
+            display: block;
+            text-align: center;
+        }
+
+        .card {
+            border: 2px solid #ddd;
+            background: #f4f4f4;
+            padding: 10px;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header align="center">
+        <h1>Simantic</h1>
+        <p>Autsada Wiriya</p>
+    </header>
+
+    <main>
+        <article id="welcome" class="card">
+            <h2 align="center">ยินดีต้อนรับเข้าสู่เว็บไซต์</h2>
+            <p>
+                วันนี้ฉันมีนิทานจะเล่าให้เธอฟังนิทาoเรื่อง ท.ทหาร อดทนเวลาเขายินเขาแนบปืนกลไว้
+                ข้างกาย Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Numquam illum voluptate expedita vel voluptates nobis obcaecati 
+                distinctio nesciunt impedit, animi eaque facilis doloribus quae aliquam 
+                exercitationem ratione laborum! Distinctio, enim!
+                <a href="https://www.facebook.com/Autsada.AiHUiGHT/" target="_blank" class="text-center">เฟสบุ๊ค Autsada Wiriya</a>
+            </p>
+        </article>
+        <article id="blog" class="card">
+            <h2 align="center">ประวัติส่วนตัว</h2>
+            <article class="article">
+                <h3>ประวัติ</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                    veniam adipisci necessitatibus quia quisquam? Eligendi vitae quia
+                    totam accusantium officiis!
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Quos quia enim corrupti veritatis deleniti culpa officia, sunt soluta,
+                    sint fugiat perspiciatis! Suscipit quibusdam sit neque reprehenderit tempora illo vero aliquid.
+                    <br>IG : 
+                    <a href="https://www.instagram.com/a_u_t_aut/" target="_blank" >a_u_t_aut</a>
+                </p>
+            </article>
+            <hr>
+            <article class="article">
+                <h3>หิวข้าว</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                    veniam adipisci necessitatibus quia quisquam? Eligendi vitae quia
+                    totam accusantium officiis!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                    veniam adipisci necessitatibus quia quisquam? Eligendi vitae quia
+                    totam accusantium officiis!
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Quos quia enim corrupti veritatis deleniti culpa officia, sunt soluta,
+                    sint fugiat perspiciatis! Suscipit quibusdam sit neque reprehenderit tempora illo vero aliquid.
+                </p>
+            </article>
+        </article>
+    </main>
+
+    <article id="sidebar" class="card">
+        <h3>เมนู</h3>
+        <ul id="main-nav">
+            <li><a href="index.html">หน้าแรก</a></li>
+            <li><a href="#">เกี่ยวกับเรา</a></li>
+            <li><a href="#">งานของเรา</a></li>
+            <li><a href="index.html">กลับ</a></li>
+        </ul>
+        <hr />
+        <h3>ติดต่องาน</h3>
+        <ul>
+            <li><strong>ที่อยู่:</strong> 555 กรุงเทพ 10555</li>
+            <li><strong>เบอร์โทรศัพท์:</strong> (+66) 05-555-5555</li>
+            <li><strong>อีเมล:</strong> contact555@gmail.com</li>
+        </ul>
+    </article>
+
+    <article class="clr"></article>
+
+    <!-- Footer -->
+    <footer>
+        <p class="text-center"> AutsadaWiriya</p>
+    </footer>
+</body>
+
+</html>

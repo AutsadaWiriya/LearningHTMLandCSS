@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h1 align="center">แบบฟอร์มลงทะเบียน</h1>
+    <form align="center">
+        <div >
+            <label for="firstname">ชื่อจริง</label>
+            <input type="text" name="fname" required>
+            <label for="lastname">นามสกุล</label>
+            <input type="text" name="lname" required>
+        </div>
+        <div >
+            <label for="date">วันเกิด</label>
+            <input type="date" required>
+            <label for="age">อายุ</label>
+            <input type="number" name="age" min="0" required>
+        </div>
+        <div >
+            <label for="email">email</label>
+            <input type="text" name="email" required>
+            <label for="password">password</label>
+            <input type="password" name="password" required>
+        </div>
+        <div >
+            <label for="Addres">ที่อยู่</label>
+            <textarea name="" id="" cols="40" rows="2"></textarea>
+        </div>
+        <div >
+            <label for="เบอร์">เบอร์</label>
+            <input type="tel">
+            <label for="สี">สี</label>
+            <input type="color">
+        </div>
+        <div >
+            <label for="">ระดับการศึกษา</label>
+            <select name="edu" id="">
+                <option value=""></option>
+                <option value="">ประถม</option>
+                <option value="">มัธยม</option>
+                <option value="">มหาลัย</option>
+            </select>
+        </div>
+        <div >
+            <label for="">เพศ</label>
+            <input type="radio">เพศชาย
+            <input type="radio">เพศหญิง
+            <input type="radio">เพศอื่นๆ
+        </div>
+        <div >
+            <label for="">file</label>
+            <input type="file" name="" id="">
+            <label for="">สิ่งที่ชอบ</label>
+            <input type="checkbox" >เล่นเกม
+            <input type="checkbox">ฟังเพลง
+        </div>
+        <div>
+            <input type="submit" value="ส่งแบบฟอร์ม">
+            <input type="reset" value="ล้างข้อมูล">
+        </div>
+    </form>
+    <p align="center">
+        <a href="index.html" >
+            <img src="image/Home.png" alt="Home" width="112.75" height="36.4375" >
+        </a>
+    </p>
+</body>
+</html>
